@@ -122,9 +122,6 @@ ul {
 .footer ul li {
   padding: 0.5rem;
 }
-.footer ul li a {
-  text-decoration: none;
-}
 .footer .container .grid {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -135,6 +132,13 @@ ul {
   padding: 14px;
   position: relative;
   left: -1rem;
+}
+.footer .my-web {
+  color: var(--primary);
+}
+.footer .my-web:hover,
+.footer .my-web:focus {
+  color: #fff;
 }
 
 @media only screen and (max-width: 1050px) {
